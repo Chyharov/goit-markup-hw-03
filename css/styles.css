@@ -2,6 +2,15 @@
 /* вторичный цвет #757575 */
 /* акцент #2196F3 */
 /* основной цвет фона #fffff */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 
 :root {
   --primary-text-color: #212121;
@@ -18,6 +27,13 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  outline: 1px solid tomato;
 }
 
 /* Logo */
@@ -39,6 +55,8 @@ body {
 }
 
 .list, .feature-list, .cards {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -46,7 +64,7 @@ body {
 
 button {
   font-family: inherit;
-
+  border: 1px solid transparent;
 }
 
 .site-nav .link {
@@ -72,22 +90,31 @@ button {
 
 .hero {
   background-color: #2F303A;
+  text-align: center;
+  outline: 1px solid tomato;
 }
 
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 40px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
-/* section */
+.section {
+}
+
+.section.no-padding {
+ padding-top: 0;
+ padding-bottom: 0;
+}
 
 .section-title {
+  margin: 0;
   color: var(--primary-text-color);
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.71;
@@ -96,7 +123,7 @@ button {
 
 .feature-title {
   color: var(--primary-text-color);
-
+  margin: 0;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -110,7 +137,6 @@ button {
 
 .name {
   color: var(--primary-text-color);
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -118,27 +144,40 @@ button {
 
 .proffesion {
   color: var(--title-text-color);
-
-font-size: 16px;
-line-height: 1.19;
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 /* Features */
 
 .features-list .title {
   color: var(--title-text-color);
-
   font-size: 14px;
   line-height: 1.14;
 }
 
-.feature-list .text {
+.text {
   color: var(--title-text-color);
-
   font-size: 14px;
   line-height: 1.71;
 }
 
+.feature-list {
+  color: var(--title-text-color);
+  margin-top: 94px;
+  font-size: 14px;
+  line-height: 1.71;
+  padding: 0;
+}
+
+.feature-list p {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.centered {
+  text-align: center;
+}
 
 /* button */
 
@@ -151,7 +190,9 @@ line-height: 1.19;
   line-height: 1.88;
   letter-spacing: 0.06em;
   border: 10px;
-  border-radius: 3px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
 }
 
 .button-portfolio {
@@ -163,13 +204,15 @@ line-height: 1.19;
   line-height: 1.62;
   letter-spacing: 0.03em;
   border: 10px;
-  border-radius: 3px;
+  border-radius: 4px;
+  padding: 6px 22px;
 }
 
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* portfolio */
