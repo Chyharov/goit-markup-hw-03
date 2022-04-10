@@ -14,21 +14,23 @@
 <body>
     <!-- Шапка сайта -->
     <header>
-        <nav>
-            <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
+        <div class="container main-nav">
+            <nav class="main-nav">
+                <a href="./index.html" class="logo">Web<span class="logo-black">Studio</span></a>
+                <ul class="site-nav list">
+                    <li class="item"><a href="" class="link curred">Студия</a></li>
+                    <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li class="item"><a href="" class="link">Контакты</a></li>
+                </ul>
+            </nav>
     
+            <!-- Контакты -->
             <ul class="site-nav list">
-                <li><a href="./index.html" class="link">Студия</a></li>
-                <li><a href="./portfolio.html" class="link curred">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+                <li class="item contacts"><a href="tel:+380961111111" class="head-contact-link">+38 096 111 11 11</a></li>
+                <li class="item contacts"><a href="mailto:info@devstudio.com"
+                        class="head-contact-link">info@devstudio.com</a></li>
             </ul>
-        </nav>
-    
-        <!-- Контакты -->
-        <ul class="site-nav list">
-            <li class=""><a href="tel:+380961111111" class="head-contact-link">+38 096 111 11 11</a></li>
-            <li><a href="mailto:info@devstudio.com" class="head-contact-link">info@devstudio.com</a></li>
-        </ul>
+        </div>
     </header>
 
     <!-- Уникальный контент -->
@@ -44,54 +46,55 @@
             </ul>
         
             <!-- Контент старницы -->
-       
-            <ul class="cards">
-                <li>
+        <div class="test-container">
+            <ul class="cards flex-contaiter">
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Технокряк</h2>
                     <p class="portfolio-list">Веб-сайт</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img1.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Постер New Orlean vs Golden Star</h2>
                     <p class="portfolio-list">Дизайн</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img2.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Ресторан Seafood</h2>
                     <p class="portfolio-list">Приложение</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img3.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Проект Prime</h2>
                     <p class="portfolio-list">Маркетинг</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img4.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Проект Boxes</h2>
                     <p class="portfolio-list">Приложение</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img5.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Inspiration has no Borders</h2>
                     <p class="portfolio-list">Веб-сайт</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img6.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Издание Limited Edition</h2>
                     <p class="portfolio-list">Дизайн</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img7.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name">Проект LAB</h2>
                     <p class="portfolio-list">Маркетинг</p></a>
                 </li>
-                <li>
+                <li class="flex-element">
                     <a href="" class="cards-link"><img src="./images/img8.jpg" width="370" height="294" alt="">
                     <h2 class="portfolio-name"> Growing Business</h2>
                     <p class="portfolio-list">Приложение</p></a>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
 
