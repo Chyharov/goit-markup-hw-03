@@ -22,24 +22,38 @@ html {
 body {
   background-color: var(--primary-white-color)
   color: var(--primary-text-color);
-  
   font-family: Roboto, sans-serif; 
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
-  outline: 1px solid tomato;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato
 }
 
 /* Logo */
 .logo {
-  font-family: 'Raleway', sans-serif;
   color: var(--accent-color);
+
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -67,8 +81,38 @@ button {
   border: 1px solid transparent;
 }
 
+/* Main nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;  
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 95px;
+}
+
+
+.site-nav .item {
+  background-color:tomato
+}
+
+/* .site-nav .item:not(:last-child) {
+  margin-right: 50px;
+} - более современный */
+
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+
 .site-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--primary-text-color);
+  
   cursor: pointer;
   font-weight: 500;
   font-size: 14px;
@@ -91,12 +135,11 @@ button {
 .hero {
   background-color: #2F303A;
   text-align: center;
-  outline: 1px solid tomato;
 }
 
 .hero-title {
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
@@ -273,7 +316,12 @@ footer {
 }
 
 .head-contact-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color:var(--title-text-color);
+
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
