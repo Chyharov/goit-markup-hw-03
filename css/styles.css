@@ -43,7 +43,7 @@ ul {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  width: 1600px;
   padding-left: 20px;
   padding-right: 20px;
   outline: 2px solid tomato
@@ -85,7 +85,7 @@ button {
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .site-nav {
@@ -258,6 +258,30 @@ button {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+
+.site-btn {
+  justify-content: center;
+  display: block;
+  display: flex;
+}
+
+.site-btn .button-portfolio {
+  display: block;
+  background-color: tomato;
+  margin-top: 95px;
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+
+/* .site-btn .button-portfolio + .button-portfolio {
+  margin-left: 30px;
+} */
+
+/* .button-portfolio:last-child {
+  margin-right: 0px;
+} */
+
+
 /* portfolio */
 
 .cards-link {
@@ -310,6 +334,9 @@ footer {
   color: var(--accent-color);
 }
 
+.ftr-item {
+}
+
 .head-contact-link:hover,
 .head-contact-link:focus {
   color: var(--accent-color);
@@ -336,6 +363,23 @@ footer {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.adrs-container {
+  background-color: blue;
+  width: 1200px;
+  padding: 60px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: 2px solid tomato
 }
 
 .flex-contaiter {
