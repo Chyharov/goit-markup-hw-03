@@ -8,7 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;1,700;1,900&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -47,21 +47,20 @@
         <!-- Преимущества -->
         <div class="container">
             <section class="section">
-                <h2 class="section-title">Преимущества работы с нами</h2>
-                <ul class="feature-list centered">
-                    <li>
+                <ul class="feature-list">
+                    <li class="flex-elemet-studio">
                         <h3 class="feature-title">Внимание к деталям</h3>
                         <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li>
+                    <li class="flex-elemet-studio">
                         <h3 class="feature-title">Пунктуальность</h3>
                         <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li>
+                    <li class="flex-elemet-studio">
                         <h3 class="feature-title">Планирование</h3>
                         <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li>
+                    <li class="flex-elemet-studio">
                         <h3 class="feature-title">Современные технологии</h3>
                         <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -71,37 +70,37 @@
         
         <!-- Про компанию -->
         <div class="container">
-            <section>
+            <section class="section">
                 <h2 class="section-title">Чем мы занимаемся</h2>
-                <ul class="list">
-                    <li><img src="./images/aboutwork.jpg" alt="печатаем" width="370" height="294"></li>
-                    <li><img src="./images/aboutwork2.jpg" alt="играем на телефоне" width="370" height="294"></li>
-                    <li><img src="./images/aboutwork3.jpg" alt="играем на планшете" width="370" height="294"></li>
+                <ul class="about-company-list">
+                    <li class="about-company-list-item"><img src="./images/aboutwork.jpg" alt="печатаем" width="370" height="294"></li>
+                    <li class="about-company-list-item"><img src="./images/aboutwork2.jpg" alt="играем на телефоне" width="370" height="294"></li>
+                    <li class="about-company-list-item"><img src="./images/aboutwork3.jpg" alt="играем на планшете" width="370" height="294"></li>
                 </ul>
             </section>
         </div>
 
             <!-- Команда -->
-        <div class="container">
+        <div class="container-team">
             <section class="section-team">
                 <h2 class="section-title">Наша команда</h2>
-                <ul class="list">
-                    <li>
+                <ul class="about-comand-list">
+                    <li class="about-comand-list-item">
                         <img src="./images/product-desiner.jpg" alt="работник" width="270" height="260">
                         <h3 class="name">Игорь Демьяненко</h3>
                         <p lang="en" class="proffesion">Product Designer</p>
                     </li>
-                    <li>
+                    <li class="about-comand-list-item">
                         <img src="./images/frontend-developer.jpg" alt="работник" width="270" height="260">
                         <h3 class="name">Ольга Репина</h3>
                         <p lang="en" class="proffesion">Frontend Developer</p>
                     </li>
-                    <li>
+                    <li class="about-comand-list-item">
                         <img src="./images/marketing.jpg" alt="работник" width="270" height="260">
                         <h3 class="name">Николай Тарасов</h3>
                         <p lang="en" class="proffesion">Marketing</p>
                     </li>
-                    <li>
+                    <li class="about-comand-list-item">
                         <img src="./images/ui-desiner.jpg" alt="работник" width="270" height="260">
                         <h3 class="name">Михаил Ермаков</h3>
                         <p lang="en" class="proffesion">UI Designer</p>
@@ -112,16 +111,20 @@
     </main>
     
     <!-- Подвал -->
-<div class="container">
     <footer>
-        <a href="./index.html" class="logo">Web<span class="logo-white">Studio</span></a>      
-        <address>
-            <ul class="list">
-                <li><a href="https://goo.gl/maps/Q5THsui5SATpn1R8A" class="footer-link">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="tel:+380961111111" class="footer-link-grey">+38 096 111 11 11</a></li>
-                <li><a href="mailto:info@devstudio.com" class="footer-link-grey">info@devstudio.com</a></li>
-            </ul>
-        </address>
+        <div class="container-ftr">
+            <a href="./index.html" class="logo ftr-item">Web<span class="logo-white">Studio</span></a>
+    
+            <address class="ftr-item">
+                <ul class="list">
+                    <li><a href="https://goo.gl/maps/Q5THsui5SATpn1R8A" class="footer-link"> г. Киев, пр-т Леси Украинки,
+                            26</a>
+                    </li>
+                    <li><a href="tel:+380961111111" class="footer-link-grey">+38 096 111 11 11</a></li>
+                    <li><a href="mailto:info@devstudio.com" class="footer-link-grey">info@devstudio.com</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </div>
 </body>
