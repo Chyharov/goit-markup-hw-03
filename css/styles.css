@@ -436,7 +436,7 @@ address {
 
 .flex-element {
   width: calc((100% - 63px) / 3);
-  border: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
   margin-right: 30px;
   margin-bottom: 30px;
 }
