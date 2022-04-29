@@ -196,8 +196,6 @@ button {
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: #2F303A;
   text-align: center;
 }
@@ -239,8 +237,6 @@ button {
 /* Team */
 
 .section-team {
-  margin-left: auto;
-  margin-right: auto;
   background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -397,8 +393,6 @@ button {
 /* Footer */
 
 footer {
-  margin-left: auto;
-  margin-right: auto;
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
