@@ -52,7 +52,6 @@ p {
 
 /* Head */
 
-
 header {
   margin-left: auto;
   margin-right: auto;
@@ -200,14 +199,23 @@ button {
   text-align: center;
 }
 
+img {
+  display: block;
+}
+
 .hero-title {
   margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
+  width: 696px;
+  height: 120px;
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 
@@ -435,10 +443,13 @@ address {
 }
 
 .flex-element {
-  width: calc((100% - 63px) / 3);
-  border-bottom: 1px solid #EEEEEE;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.border-line {
+  border: 1px solid #EEEEEE;
 }
 
 .flex-element:nth-child(3n) {
