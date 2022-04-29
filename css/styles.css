@@ -56,7 +56,6 @@ p {
 header {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   border-bottom: 1px solid #EEEEEE;
 }
 
@@ -199,7 +198,6 @@ button {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   background-color: #2F303A;
   text-align: center;
 }
@@ -243,7 +241,6 @@ button {
 .section-team {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -402,7 +399,6 @@ button {
 footer {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1600px;
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
