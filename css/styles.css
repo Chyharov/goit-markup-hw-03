@@ -56,7 +56,7 @@ p {
 header {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  max-width: 1600px;
   border-bottom: 1px solid #EEEEEE;
 }
 
@@ -112,23 +112,8 @@ header {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /* background-color: teal;
-  outline: 2px solid tomato; */
-}
-
-
-
-
-.container-ftr {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #2F303A;
-  /* outline: 2px solid tomato */
+  background-color: teal;
+  outline: 2px solid tomato;
 }
 
 .list, .feature-list, .cards {
@@ -257,7 +242,7 @@ button {
 .section-team {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  max-width: 1600px;
   background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
@@ -405,10 +390,14 @@ button {
 footer {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
-  background-color: 2F303A;
+  max-width: 1600px;
+  background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.list {
+  margin-top: 20px;
 }
 
 .footer-link {
