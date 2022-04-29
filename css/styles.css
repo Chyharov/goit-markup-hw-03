@@ -50,21 +50,8 @@ p {
   margin: 0;
 }
 
-.section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
+/* Head */
 
-/* Контейнеры */
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: teal;
-  outline: 2px solid tomato;
-}
 
 header {
   margin-left: auto;
@@ -73,38 +60,27 @@ header {
   border-bottom: 1px solid #EEEEEE;
 }
 
-.container-team {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #F5F4FA;
+.head-contact-link:hover,
+.head-contact-link:focus {
+  color: var(--accent-color);
 }
 
+.head-contact-link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
-.container-btn {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  /* outline: 2px solid tomato */
-}
+  color:var(--title-text-color);
 
-.container-ftr {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #2F303A;
-  /* outline: 2px solid tomato */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Logo */
+
 .logo {
   margin-right: 93px;;
   color: var(--accent-color);
@@ -122,6 +98,37 @@ header {
 
 .logo-white {
   color: var(--primary-white-color);
+}
+
+.section {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+/* Контейнеры */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background-color: teal;
+  outline: 2px solid tomato; */
+}
+
+
+
+
+.container-ftr {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #2F303A;
+  /* outline: 2px solid tomato */
 }
 
 .list, .feature-list, .cards {
@@ -202,6 +209,11 @@ button {
 /* hero */
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
   background-color: #2F303A;
   text-align: center;
 }
@@ -243,6 +255,10 @@ button {
 /* Team */
 
 .section-team {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background-color: #F5F4FA;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -384,6 +400,17 @@ button {
   line-height: 1.88;
 }
 
+/* Footer */
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background-color: 2F303A;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-link {
   color: #ffffff;
   font-style: normal;
@@ -408,25 +435,6 @@ button {
 .footer-link-grey:focus, 
 .footer-link-grey:hover {
   color: var(--accent-color);
-}
-
-.head-contact-link:hover,
-.head-contact-link:focus {
-  color: var(--accent-color);
-}
-
-.head-contact-link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  color:var(--title-text-color);
-
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .flex-contaiter {
