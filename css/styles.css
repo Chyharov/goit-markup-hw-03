@@ -112,8 +112,8 @@ header {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: teal;
-  outline: 2px solid tomato;
+  /* background-color: teal;
+  outline: 2px solid tomato; */
 }
 
 .list, .feature-list, .cards {
@@ -371,6 +371,7 @@ button {
 }
 
 .portfolio-name {
+  margin: 20px 24px 4px;
   color: var(--primary-text-color);
 
   font-size: 18px;
@@ -379,6 +380,7 @@ button {
 }
 
 .portfolio-list {
+  margin: 0px 24px 20px;
   color: var(--title-text-color);
 
   font-size: 16px;
