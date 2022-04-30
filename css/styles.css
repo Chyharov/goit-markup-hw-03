@@ -413,8 +413,8 @@ address {
   margin-top: 20px;
 }
 
-.footer-margin {
-  margin-bottom: 10px;
+.footer-margin:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-link {
