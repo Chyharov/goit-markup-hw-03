@@ -99,8 +99,8 @@ header {
 }
 
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  Padding-top: 94px;
+  Padding-bottom: 94px;
 }
 
 /* Контейнеры */
@@ -225,12 +225,12 @@ img {
 }
 
 .section-title {
-  padding-bottom: 50px;
-  padding-top: 0px;
+  margin-bottom: 50px;
+  margin-top: 0px;
   color: var(--primary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.71;
+  line-height: 1.17;
   text-align: center;
 }
 
@@ -251,7 +251,6 @@ img {
 }
 
 .name {
-  padding-top: 30px;
   text-align: center;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -260,11 +259,15 @@ img {
 }
 
 .proffesion {
-  padding-bottom: 30px;
   text-align: center;
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.19;
+}
+
+.team-card-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-card {
