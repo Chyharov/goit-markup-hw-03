@@ -103,6 +103,10 @@ header {
   Padding-bottom: 94px;
 }
 
+.section-feature-list {
+  Padding-top: 94px;
+}
+
 /* Контейнеры */
 .container {
   margin-left: auto;
